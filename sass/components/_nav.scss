@@ -1,4 +1,8 @@
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   nav {
     .navbar-brand {
       font-family: $heading;
@@ -15,6 +19,10 @@ header {
           font-weight: 400;
           line-height: normal;
           text-transform: capitalize;
+          transition: 0.4s;
+          &:hover {
+            color: $brand;
+          }
         }
       }
     }

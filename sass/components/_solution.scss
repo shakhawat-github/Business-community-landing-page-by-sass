@@ -1,0 +1,24 @@
+#solution{
+    padding: 140px 0 144px;
+    background: #F6F9FF;
+    .solution-box{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row: auto;
+        column-gap: 30px;
+        .item{
+            position: relative;
+            padding: 50px 30px;
+            background-color: $white;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            h3{
+                margin-top: 50px;
+            }
+        }
+    }
+}
