@@ -1,0 +1,22 @@
+header {
+  nav {
+    .navbar-brand {
+      font-family: $heading;
+    }
+    .navbar-nav {
+      column-gap: 54px;
+      .nav-item {
+        .nav-link {
+          color: $black;
+          text-align: right;
+          font-family: $paragraph;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
