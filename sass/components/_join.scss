@@ -1,0 +1,26 @@
+#join {
+  padding: 140px 0;
+  .title {
+    h2 {
+      color: $black;
+      text-align: center;
+      font-family: $heading;
+      font-size: 62px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 110%; /* 68.2px */
+      max-width: 989px;
+      margin: 0 auto;
+    }
+    p {
+      color: $black;
+      text-align: center;
+      font-family: $paragraph;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 28px */
+      margin-top: 60px;
+    }
+  }
+}
